@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px 20px;
+    background: linear-gradient(90deg,rgb(252, 222, 30),rgb(184, 4, 100));
+}
+input{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+#message{
+   
+    padding:13px 10px 100px 5px;
+}
+.container{
+    background-color: rgb(248, 240, 231);
+  border-radius: 10px;
+   padding:15px 50px 10px 50px;
+    margin:40px auto 30px;
+}
+button{
+    background-color:rgb(169, 251, 46);
+}
+button:hover{
+    background-color:rgb(107, 157, 33) ;
+}
