@@ -32,17 +32,17 @@ sub.addEventListener('click',function(){
     const username =document.querySelector("#name");
   const useremail=document.querySelector("#email");
   const usermsg=document.querySelector("#message");
- /* if(username.innerHTML===``){
+  if(username.value===``){
     alert(`Enter your name`)
   }
-  else if(useremail.innerHTML===``){
+  else if(useremail.value===``){
  alert(`Please Enter you mail id`);
   }
-  else if(usermsg.innerHTML===``){
+  else if(usermsg.value===``){
 alert(`Please enter your message`);
   }
   else{
-   */
+   
    const data={
     nm:username.value,
     em:useremail.value,
@@ -50,5 +50,5 @@ alert(`Please enter your message`);
   }
   push(data)
 }
-//}
+}
 )
