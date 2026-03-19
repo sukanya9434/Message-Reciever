@@ -19,8 +19,8 @@ function push(data){
   line.innerHTML="Sending message...";
   Add.appendChild(line);
   addDoc(collection(db, "messages"), {
-      name: data.nm,
-      email: data.em,
+//      name: data.nm,
+  //    email: data.em,
       message: data.msg,
       timestamp: serverTimestamp()})
     .then(()=>{
@@ -29,23 +29,24 @@ function push(data){
    .catch((error)=>{
     alert("Error:",error);})}
 sub.addEventListener('click',function(){
-    const username =document.querySelector("#name");
-  const useremail=document.querySelector("#email");
+  //  const username =document.querySelector("#name");
+  //const useremail=document.querySelector("#email");
   const usermsg=document.querySelector("#message");
-  if(username.value===``){
+ /* if(username.value===``){
     alert(`Enter your name`)
   }
   else if(useremail.value===``){
  alert(`Please Enter you mail id`);
   }
-  else if(usermsg.value===``){
+  else
+    */ if(usermsg.value===``){
 alert(`Please enter your message`);
   }
   else{
    
    const data={
-    nm:username.value,
-    em:useremail.value,
+   // nm:username.value,
+    //em:useremail.value,
     msg:usermsg.value
   }
   push(data)

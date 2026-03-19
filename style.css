@@ -3,27 +3,43 @@ body{
     justify-content: center;
     align-items: center;
     padding: 50px 10px 20px;
-    background: linear-gradient(90deg,rgb(252, 222, 30),rgb(184, 4, 100));
+    background-image:url('Untitled\ design.png');
+    
 }
 input{
     display:flex;
     flex-direction: column;
     margin-bottom: 15px;
-    
+    border-radius: 10px;
+    outline: none;
+    border: none;
+   font-family: cursive;
+        box-shadow: 0 0 10px 5px #f7ceced4;
 }
 #message{
-   
-    padding:13px 10px 100px 5px;
+    margin-top: 5px;
+    padding:13px 10px 100px  10px;
 }
 .container{
-    background-color: rgb(248, 240, 231);
+    background: linear-gradient(80deg,rgb(253, 247, 253),#ff9589); 
   border-radius: 10px;
-   padding:15px 50px 10px 50px;
-    margin:40px auto 30px;
-}
+   padding:20px 40px 10px 40px;
+    margin:80px auto 30px;
+     box-shadow: 0 0 10px 5px #f7cece;
+ font-family: cursive;
+ color: rgb(48, 137, 56);
+    }
+.container:hover{
+    background:linear-gradient(80deg,#ff9589,rgb(253, 247, 253));
+}    
 button{
+    border-radius: 10px;
+    outline: none;
+    border-color: rgb(126, 193, 39);
+    block-size: 30px;
     background-color:rgb(169, 251, 46);
+     font-family: cursive;
 }
 button:hover{
-    background-color:rgb(107, 157, 33) ;
+    background-color:rgb(140, 206, 42) ;
 }
